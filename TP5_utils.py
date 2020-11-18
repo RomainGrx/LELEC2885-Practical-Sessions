@@ -12,7 +12,7 @@ def plotTheCentroids(X,assignations,centroids,iteration = None,plotCentroids=Tru
     - iteration: int, the kmeans iteration at which the plot function is called
     """
     
-    plt.figure(figsize=(8,8))
+    plt.figure(figsize=(7,7))
     (K,_) = centroids.shape
     plotlegend = []
     for i in range(K):
